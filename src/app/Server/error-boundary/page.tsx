@@ -1,5 +1,5 @@
 import { CustomErrorBoundary } from "./ErrorBoundary";
-
+export const dynamic = 'force-dynamic';
 
 async function ThrowError() {
   if (true) throw new Error('server component error wrapped error boundary');
