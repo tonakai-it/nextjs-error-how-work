@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 
-export const Page = () => {
+export default function  Page () {
   "use client"
 
   return(
@@ -15,5 +15,3 @@ export const Page = () => {
     </section>
   )
 }
-
-export default Page

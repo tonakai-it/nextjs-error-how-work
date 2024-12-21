@@ -1,7 +1,7 @@
 "use client"
 import { MouseEvent } from "react";
 
-export const Page = () => {
+export default function  Page () {
   async function handleClickConsoleError(_:MouseEvent) {
     const res = await fetch('/api/v1/edge_error?mode=console');
     const data = await res.json();
@@ -20,5 +20,3 @@ export const Page = () => {
     </section>
   )
 }
-
-export default Page

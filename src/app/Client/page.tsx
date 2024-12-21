@@ -1,7 +1,7 @@
 "use client";
 import { MouseEvent } from "react"
 
-export const Page = () => {
+export default function Page () {
   function handleClickConsoleError(_:MouseEvent) {
     console.error('client component cosnole error.');
   }
@@ -17,5 +17,3 @@ export const Page = () => {
     </section>
   )
 }
-
-export default Page
